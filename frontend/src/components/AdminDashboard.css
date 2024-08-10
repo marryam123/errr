@@ -1,0 +1,42 @@
+.button-style {
+    background-color: #4CAF50; 
+    border: none;            
+    color: white;             
+    padding: 10px 20px;       
+    text-align: center;       
+    text-decoration: none;    
+    display: inline-block;    
+    font-size: 16px;         
+             
+    cursor: pointer;         
+    border-radius: 8px;      
+  }
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+  .button-style:hover {
+    background-color: #45a049; 
+  }
+  
+h1{
+  margin-top:20px;
+}
+
+.l{
+    margin-left:350px;
+  
+  }
+  @media (max-width: 768px) {
+    .button-style {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+    
+    .l {
+        margin-left: 2%; 
+        margin-top: 1%;
+    }
+}

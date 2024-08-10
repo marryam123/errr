@@ -1,0 +1,32 @@
+.atten-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.atten-wrap {
+    min-width: 410px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.atten-title {
+    color: #0056b3;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.atten-wrap .atten-title{
+    text-align: center;
+    font-style: 1.37rem;
+    font-weight: 600;
+    margin-bottom: 1.87rem;
+}
+
+.atten-wrap .atten-title .atten-field {
+    height: 100%;
+    width: 75px;
+    padding: 0 1.25rem 0 3.12rem;
+    box-sizing: border-box;
+}

@@ -1,0 +1,78 @@
+.dashboard {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdfdfd;
+}
+
+.dashboard-title {
+    font-size: 3rem;
+    margin-top: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #134801;
+    text-decoration: underline;
+
+}
+
+.dashboard-para {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.dashboard .main-user{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;   
+}
+
+.dashboard .user {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.dashboard .user:first-of-type {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24a758;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e7d43;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .dashboard {
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .dashboard-title {
+        font-size: 1.5rem;
+    }
+
+    .dashboard-para {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
